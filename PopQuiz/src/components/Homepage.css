@@ -1,0 +1,129 @@
+#container {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode {
+    color: #1e1e1e;
+    .Start-btn{
+        background-color: #1e1e1e;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .Start-button{
+        background-color: #1E1E1E30;
+    }
+    .Start-btn:active{
+        outline: 2px solid #1e1e1e;
+    }
+}
+
+.dark-mode {
+    color: #e4e4e4;
+    .Start-btn{
+        background-color: #e4e4e4;
+        transition: background-color 0.3s, color 0.3s;
+        color: black;
+    }
+    .Start-btn:active{
+        outline: 2px solid #e4e4e4;
+    }
+}
+
+.navbar{
+    display: flex;
+    font-family: Gilroy-Medium;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    padding-left: 30px;
+}
+.left-text, .right-text{
+    display: flex;
+    align-items: center;
+}
+.search{
+    padding-top: 16px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 20px;
+}
+
+#theme-toggle{
+    margin-right: 48px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.box{
+    margin-top: 2%;
+    padding-left: 16%;
+    display: flex;
+    height :600px;
+    padding-bottom: 1%;
+}
+.Heading{
+    display: flex;
+    width: 483px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Gilroy-Bold;
+    font-size: 68px;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../assets/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../assets/Gilroy-Medium.ttf);
+}
+
+.Tagline{
+    margin-top: 50px;
+    display: flex;
+    width: 380px;
+    height: 66px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: Gilroy-Medium;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.68;
+}
+
+.Start-button{
+    margin-top: 50px;
+    width: 223px;
+    height: 73.315px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #ffffff71;
+    backdrop-filter: blur(36px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Start-btn{
+    width: 200px;
+    height: 56.805px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #ffffff;
+    font-size: 36px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#fixing{
+    position: inherit;
+    margin-bottom: -10px;
+}
+

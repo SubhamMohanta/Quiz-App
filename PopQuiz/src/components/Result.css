@@ -1,0 +1,57 @@
+.result-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43.2em;
+
+}
+.logo-2{
+    border-radius: 69px;
+    background: #FEC080;
+    width: 358px;
+    height: 313px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../assets/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../assets/Gilroy-Medium.ttf);
+}
+
+.text-part{
+    margin-left: 4%;
+    width: 601px;
+}
+
+.score{
+    text-align: justify;
+    font-family: Gilroy-Bold;
+    font-size: 66px;
+}
+
+.restart{
+    margin-top: 50px;
+}
+.restart-button{
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    width: 222px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0071E3;
+    border: none;
+    cursor: pointer;
+}

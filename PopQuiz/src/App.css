@@ -1,0 +1,14 @@
+.light-mode {
+    background-color: #ffffff;
+    color: #1e1e1e;
+  }
+  
+  .dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+
+body{
+  margin: 0;
+}
+  

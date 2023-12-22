@@ -1,0 +1,150 @@
+#parent{
+    transition: 0.3s ease-in-out;
+}
+.navbar{
+    padding-top: 22.2px;
+    justify-content: space-between;
+    display: flex;
+    font-family: Gilroy-Bold;
+    height: 50px;
+}
+
+.logo{
+    font-size: 25px;
+    display: flex;
+    padding-left: 30px;
+}
+#theme-toggle{
+    margin-right: 48px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.box{
+    padding-top: 3%;
+    margin-left: 2.5%;
+    width: 1060px;
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../assets/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../assets/Gilroy-Medium.ttf);
+}
+
+.top{
+    margin-top: 60px;
+    font-family: Gilroy-Bold;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+}
+.bottom{
+    margin-left: 30px;
+    display: flex;
+}
+.left{
+    width: 480px;
+}
+.left-top{
+    width: 480px;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 135%;
+}
+.left-bottom{
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+#highlight{
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    width: 139px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0071E3;
+    border: none;
+    cursor: pointer;
+}
+
+#remove-highlight{
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    width: 222px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0071E3;
+    border: none;
+    cursor: pointer;
+}
+
+.right{
+    padding-top: 9%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 405px;
+}
+
+.option{
+    border-radius: 16px;
+    width: 376px;
+    height: 80px;
+    border: none;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    cursor: pointer;
+}
+.light-mode {
+    color: #1e1e1e;
+    .option{
+        background-color: #1e1e1e;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .option:active{
+        outline: 2px solid #1e1e1e;
+    }
+}
+
+.dark-mode {
+    color: #e4e4e4;
+    .option{
+        background-color: #e4e4e4;
+        transition: background-color 0.3s, color 0.3s;
+        color: #1e1e1e;
+    }
+    .option:active{
+        outline: 2px solid #e4e4e4;
+    }
+}
+
+.highLighter{
+    background: linear-gradient(113deg, #FECC80 0%, #CE7DFF 53.56%, #5E5BFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
